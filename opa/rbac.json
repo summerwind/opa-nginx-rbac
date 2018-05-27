@@ -1,0 +1,21 @@
+{
+  "roles": {
+    "compute.admin": {
+      "/compute/": ["GET", "POST", "PUT", "DELETE"]
+    },
+    "compute.viewer": {
+      "/compute/": ["GET"]
+    },
+    "storage.admin": {
+      "/storage/": ["GET", "POST", "PUT", "DELETE"]
+    },
+    "storage.viewer": {
+      "/storage/": ["GET"]
+    }
+  },
+
+  "role_bindings": {
+    "alice":   ["compute.admin", "storage.admin"],
+    "bob":     ["compute.viewer"]
+  }
+}
