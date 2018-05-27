@@ -1,6 +1,6 @@
 # RBAC on Nginx with Open Policy Agent
 
-This repository demonstrates how to implement role based access control (RBAC) on Nginx with Open Policy Agent.
+This repository demonstrates how to implement role based access control (RBAC) on [Nginx](https://nginx.org/) with [Open Policy Agent](https://www.openpolicyagent.org/).
 
 ## How to use
 
